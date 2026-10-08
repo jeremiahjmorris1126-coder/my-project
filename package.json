@@ -1,0 +1,33 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "Start a REST API with Node.js",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "NODE_ENV=test node --test tests/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremiahjmorris1126-coder/my-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeremiahjmorris1126-coder/my-project/issues"
+  },
+  "homepage": "https://github.com/jeremiahjmorris1126-coder/my-project#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.6",
+    "express": "^5.2.1",
+    "helmet": "^8.3.0",
+    "morgan": "^1.12.1"
+  },
+  "devDependencies": {
+    "supertest": "^7.3.1"
+  }
+}
